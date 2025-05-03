@@ -10,6 +10,11 @@ import com.pages.TikiPage.TC_002Page;
 import com.utils.BasicTest;
 import com.utils.Utils;
 
+// Summary: Verify presence of Search Input field
+// Steps:
+// 1. Navigate to: https://tiki.vn/
+// 2. Locate the search input field
+// Expected 2. Search Input box is present, enable and visible
 public class TC_002Test extends BasicTest {
 
 

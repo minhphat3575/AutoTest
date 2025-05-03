@@ -13,6 +13,13 @@ import com.pages.TikiPage.TC_005Page;
 import com.utils.BasicTest;
 import com.utils.Utils;
 
+
+// Summary: Verify suggestions appears when type minimum 1 characters
+// Steps:
+// 1. Navigate to: https://tiki.vn/
+// 2. Click on "Search Bar"
+// 3. Type "Ip"
+//Expected: 3. A suggestions dropdown appears below the search bar with relevant keywork or product suggestions
 public class TC_005Test extends BasicTest {
 
 

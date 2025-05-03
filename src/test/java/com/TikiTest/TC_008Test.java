@@ -15,7 +15,7 @@ import com.pages.TikiPage.TC_008Page;
 import com.utils.BasicTest;
 import com.utils.Utils;
 
-// Verify accented and non-accented
+// Verify accented and non-accented search
 // Step:
 // 1. Navigate to: https://tiki.vn/
 // 2. Click on "Search Bar"

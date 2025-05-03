@@ -1,16 +1,20 @@
 package com.TikiTest;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.mongodb.util.Util;
 
-import com.pages.TikiPage.TC_002Page;
+
 import com.pages.TikiPage.TC_003Page;
 import com.utils.BasicTest;
-import com.utils.Utils;
 
+
+
+// Summary Verify presence of Search Icon "magnifying glass"
+// Steps: 
+// 1. Navigate to: https://tiki.vn/
+// 2. Check if the search icon is visible beside input field
+// Expected: 2. Search icon "magnifying glass" is displayed correctly and clickable
 public class TC_003Test extends BasicTest {
 
 

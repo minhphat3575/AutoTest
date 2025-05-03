@@ -10,6 +10,11 @@ import com.pages.TikiPage.TC_004Page;
 import com.utils.BasicTest;
 import com.utils.Utils;
 
+// Summary: Verify placeholder text in search box
+// Steps: 
+// 1. Navigate to: https://tiki.vn/
+// 2. Check placeholder text is in search box
+// Expected: 2. Placeholder is visible, e.g, "Search the product"
 public class TC_004Test extends BasicTest {
 
 

@@ -15,6 +15,14 @@ import com.pages.TikiPage.TC_007Page;
 import com.utils.BasicTest;
 import com.utils.Utils;
 
+
+// Summary: Verify case-insensitive search
+// Steps:
+// 1. Navigate to: https://tiki.vn/
+// 2. Click on "Search Bar"
+// 3. Enter keywork "Iphone" and press ENTER
+// 4. Enter keywork "iphone" and press ENTER
+// Expected: 4. Both research return same or similar products
 public class TC_007Test extends BasicTest {
         Logger logger = Logger.getLogger(TC_007Test.class.getName());
 

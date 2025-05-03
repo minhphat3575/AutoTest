@@ -11,6 +11,13 @@ import com.pages.TikiPage.TC_006Page;
 import com.utils.BasicTest;
 import com.utils.Utils;
 
+
+// Summary: Verify search works when pressing ENTER
+// Steps:
+// 1. Navigate to: https://tiki.vn/
+// 2. Click on "Search Bar"
+// 3. Enter keywork "Iphone" and press ENTER
+// Expected: 3. Page navigation to search result showing relevant products
 public class TC_006Test extends BasicTest {
 
     Logger logger = Logger.getLogger(TC_006Test.class.getName());
