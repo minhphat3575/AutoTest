@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import com.github.dockerjava.api.model.Driver;
-import com.pages.BasePage;
+import com.pages.TikiPage.BasePage;
 // import com.pages.Driver.DriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -28,7 +28,7 @@ public class Utils extends BasePage{
     }
 
     public static void hardWait(){
-        hardWait(3000);
+        hardWait(4000);
     }
 
     // public static void newTab(){

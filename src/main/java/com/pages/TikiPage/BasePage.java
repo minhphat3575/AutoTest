@@ -1,4 +1,4 @@
-package com.pages;
+package com.pages.TikiPage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
